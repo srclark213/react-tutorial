@@ -44,5 +44,5 @@ describe('Course Reducer', () => {
         expect(updatedCourse.title).toEqual('New Title');
         expect(untouchedCourse.title).toEqual('A');
         expect(newState.length).toEqual(2);
-    })
+    });
 });

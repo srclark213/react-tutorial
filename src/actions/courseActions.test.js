@@ -14,6 +14,6 @@ describe('Course Actions', () => {
             const action = courseActions.createCourseSuccess(course);
 
             expect(action).toEqual(expectedAction);
-        })
-    })
-})
+        });
+    });
+});
